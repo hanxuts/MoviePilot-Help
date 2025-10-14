@@ -1,1 +1,1 @@
-Spy x Family (2025) => {[tmdbid=120308;type=tv;s=3]} && 间谍过家家 <> [] >> 0
+(?i)Spy\ x\ Family\ \(2025\) => Spy x Family{[tmdbid=120089;type=tv;s=3]}
