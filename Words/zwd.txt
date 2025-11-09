@@ -1,2 +1,3 @@
 (?i)Spy\ x\ Family\ \(2025\) => Spy x Family{[tmdbid=120089;type=tv;s=3]}
 永久的黄昏 => 永远的黄昏
+Fujimoto Tatsuki 17-26 => Fujimoto Tatsuki{[tmdbid=299778;type=tv;s=1]}
