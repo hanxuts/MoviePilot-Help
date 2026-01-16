@@ -1,4 +1,4 @@
 # 判处勇者刑
 Yuusha-kei ni Shosu：Choubatsu Yuusha 9004 Tai Keimu Kiroku => Sentenced to Be a Hero.{[tmdbid=249907;type=tv;s=1]}
-#恋人不行
-(?<=Sakurato.*?)Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri => Watanare.{[tmdbid=277513;type=tv]}S00E && S00E <> \[HEVC >> EP-12
+#MingYsub 公主殿下，“拷问”的时间到了
+\[MingY\] Himegou \[ => [MingY] 姫様“拷問”の時間です [S02E && \[S02E <> \] >> EP-12
