@@ -2,3 +2,5 @@
 Yuusha-kei ni Shosu：Choubatsu Yuusha 9004 Tai Keimu Kiroku => Sentenced to Be a Hero.{[tmdbid=249907;type=tv;s=1]}
 #MingYsub 公主殿下，“拷问”的时间到了
 \[MingY\] Himegou \[ => [MingY] 姫様“拷問”の時間です [S02E && \[S02E <> \] >> EP-12
+#我推的孩子 S3
+Oshi no Ko S3 => {[tmdbid=203737;type=tv;s=3]}
