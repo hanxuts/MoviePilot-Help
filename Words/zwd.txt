@@ -4,3 +4,6 @@ Yuusha-kei ni Shosu：Choubatsu Yuusha 9004 Tai Keimu Kiroku => Sentenced to Be 
 (?i)Hime-sama Goumon no Jikan desu => {[tmdbid=229443;type=tv;s=2]} && \ \[ <> \]\[WebRip\] >> EP-12
 #我推的孩子 S3
 Oshi no Ko S3 => Oshi no Ko{tmdbid=203737} && \ \[ <> \]\[HEVC-10bit >> EP+24
+#金牌得主 S2
+\[Nekomoe kissaten&LoliHouse] Medalist -\s => [Nekomoe kissaten&LoliHouse]Medalist.S02E && S02E <> WebRip >> EP-13
+\[Studio GreenTea] Medalist \[ => [Studio GreenTea] Medalist \[S02E && \[S02E <> \]\[WebRip >> EP-13
