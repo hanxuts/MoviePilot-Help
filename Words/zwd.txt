@@ -25,3 +25,19 @@ HEVC Main10P => x265
 \[CHS\_JP\]\(\w{8}\)
 chs&jpn => jpsc
 cht&jpn => jptc
+#视频来源修正
+(?i)\bSBSUB\b => 银色子弹字幕组
+(?i)\bNekomoe kisstan\b => 喵萌奶茶屋
+(?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
+(?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
+(?i)\bHaruhana\b => ❀拨雪寻春❀
+(?<=[\W_])CR(?=[\W_]) => Crunchyroll
+(?<=[\W_])NF(?=[\W_]) => Netflix
+(?<=[\W_])AMZN(?=[\W_]) => Amazon
+(?<=[\W_])ATVP(?=[\W_]) => AppleTV+
+(?<=[\W_])DSNP(?=[\W_]) => Disney+
+(?<=(1080p|2160p)\.)Max\. => -MAX.
+(?<=(1080p|2160p)\.)iT\. => -iTunes.
+(?<=S\d{2}E\d{2}).+(?=(2160|1080)p.+NTb) =>  
+\(Extra\d\)
+\(Extra #[0-9]*\)
