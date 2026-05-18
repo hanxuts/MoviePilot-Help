@@ -84,7 +84,7 @@ ASSx1 => 简体内封
 (?i)\bUHA-WINGS\b => 悠哈璃羽字幕社
 (?i)\bMahoMabo\b => 魔穗字幕组&幻之字幕组
 (?i)\bMabors Sub\b|魔穗字幕组|魔穗 => 魔穗字幕组
-(?i)\bMabors Sub\b|幻之字幕组|幻之 => 幻之字幕组
+幻之字幕组|幻之 => 幻之字幕组
 (?i)\bsuzume Ryokosha\b => 玲芽旅行团
 (?i)\bHaruhana\b => ❀拨雪寻春❀
 (?i)\bMingYSub\b|\bMingY\b => MingYSub
@@ -105,7 +105,7 @@ ASSx1 => 简体内封
 SRTx1 => 简体内封
 (SRTx2|SRT) => 简繁内封
 (?i)Season( *)0?(\d+) => S\2
-(?<=[\W_])(CR|Baha|KKTV|Abema|B-Global|Sentai|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|NF|Viu)(?=[\W_]) => -\1
+(?<=[\W_])(CR|Baha|KKTV|Abema|B-Global|Sentai|MyVideo|AMZN|friDay|DSNP|LINETV|NF|Viu)(?=[\W_]) => -\1
 (\[|【|&|x|×)DAY(】|]|&|x|×) => \1DAY字幕组\2
 \[(\d{1,3})\] => [E\1]
 (.*)(VCB-Studio)(.*)(Ma10p_?|Hi10p_?)(.*) => \1\2\3\5
@@ -114,9 +114,6 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 (S(eason)? ?\d+)? *\[\d+\(?(OVA|OAD)\)?\] => S0
 (\d\d)全片简中 => \1 [简体内嵌][B站小鱼儿呼唤爱][1080p]
 \[简体内嵌\](\[E\d\d\]) => \1[简体内嵌]
-(?<=[\W_])CR(?=[\W_]) => Crunchyroll
-(?<=[\W_])NF(?=[\W_]) => Netflix
-(?<=[\W_])AMZN(?=[\W_]) => Amazon
 (?<=[\W_])DV(?=[\W_]) => DoVi
 (?i)\.chs\.(mp4|mkv) => [简日双语].\1
 \.sc\.(ass|srt) => .chs.\1
@@ -128,8 +125,6 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 (\[风车字幕组\]\[?Detective Conan\]?\[)(\d{4})(?=\[) => \1E\2
 简日特效字幕 => 简日双语
 (?<=[\W_])((H?MAX)|ATVP)(?=[\W_]) => -\1
-(?<=[\W_])ATVP(?=[\W_]) => AppleTV+
-(?<=[\W_])DSNP(?=[\W_]) => Disney+
 (北宇治字幕组.*)\.(mp4|mkv) => \1[1080p].\2
 (?<=[\W_x])FSD(?=[\W_x]) => FSD字幕组
 (?<!-)(Disney\+|playWEB|Crunchyroll|Netflix|Amazon|AppleTV\+) => -\1
@@ -174,10 +169,7 @@ Billion Meta Lab|\bBML\b => 亿次研同好会
 \bQBZ\b => 碧蓝档案情报站字幕组
 #辅助识别修正词
 (\b[5-9]\b|\b[1-9][0-9]\b) \[ =>  E\1 [
-(?<=[\[【].*?(?:组|組|sub|S(?:UB|ub|tudio)|Raw(?:|s)|社)[\]】])(?:(?:\[|【|★|)\d{1,2}月新番(?:\]|】|★|)|)[\[【](.*?)[\]】] => \1
-^[\W_](.*?(?:组|組|屋|社|動漫|Lab|sub|S(?:UB|ub|tudio)|Raw(?:|s)|Production))[\W_]+(?:[\W_]+\d{1,2}(?:月(?:新|)番|国漫)[\W_]+|)[\[【](.*?)[\]】] => [\1] \2 
 \(([^\(\)\s]+)\)\.(mp4|mkv) => \1
-[【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})(Fin|END)
 Hi10p_1080p => 1080p x264
 Ma10p_1080p => 1080p x265
 HEVC Main10P => x265
