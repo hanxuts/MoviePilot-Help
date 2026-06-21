@@ -1,3 +1,7 @@
+#类型修正
+\bBDRIP\b => BDRip
+\bWEBRIP\b => WebRip
+
 #组优化
 (?i)\bani\b => ANi
 (?i)\bBaha\b => Baha
