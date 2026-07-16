@@ -3,6 +3,7 @@
 \bWEBRIP\b => WebRip
 
 #组优化
+(?i)\bStudio GreenTea\b => 绿茶字幕组
 (?i)\bani\b => ANi
 (?i)\bBaha\b => Baha
 \[ANi\].*?\/\s* => [ANi] 
